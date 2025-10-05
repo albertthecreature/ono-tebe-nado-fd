@@ -47,13 +47,10 @@
   padding-right: 50px;
   justify-self: end;
   align-items: flex-start;
-}
-
-.address__phone {
   text-underline-offset: 4px;
 }
 
-.address__email {
+.address__link {
   text-underline-offset: 4px;
 }
 
@@ -90,18 +87,21 @@
   padding-top: 165px;
   padding-left: 50px;
   align-self: flex-start;
+  z-index: 2;
 }
 
 .aligned-text_center {
   padding-top: 20px;
   padding-left: 28px;
   align-self: center;
+  z-index: 2;
 }
 
 .aligned-text_right {
   padding-top: 20px;
   padding-right: 20px;
   align-self: flex-end;
+  z-index: 2;
 }
 
 .letter-spacing-extended {
@@ -119,6 +119,7 @@
 .cover__description-text {
   padding-left: 50px;
   word-spacing: 18px;
+  z-index: 2;
 }
 
 .bet-button {
@@ -129,6 +130,7 @@
   font-size: 22px;
   background: transparent;
   border: 1px solid #fff;
+  z-index: 2;
 }
 
 /* SECTION "LOTS" */
@@ -200,12 +202,14 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 3px;
+  z-index: 2;
 }
 
 .card__text {
   padding: 0 40px 48px 40px;
   font-size: 20px;
   align-self: flex-end;
+  z-index: 2;
 }
 
 .lots__look-more-link {
@@ -274,14 +278,7 @@
 }
 
 .footer__address {
-  max-width: 342px;
-  display: flex;
-  flex-direction: column;
-  line-height: 24.8px;
-  font-style: normal;
-  padding-right: 50px;
-  align-items: flex-start;
-  justify-self: flex-start;
+  justify-self: start;
 }
 
 .footer__menu-list {
